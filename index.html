@@ -17,7 +17,7 @@
 
 <body>
     <section>
-        <div class="dashboard">
+        <div class="dashboard" id="title">
             <h1>Weather Dashboard</h1>
         </div>
         <div class="search" id="city">
@@ -28,8 +28,46 @@
             ></textarea>
         </div>
         <div>
-            <button class="btn">Search</button>
+            <button class="btn" id="search">Search</button>
         </div>
+    </section>
+
+    <section class="cities" id="cities">
+        <div>
+            <button class="Austin">Austin, TX</button>
+        </div>
+        <div>
+            <button class="Chicago">Chicago, IL</button>
+        </div>
+        <div>
+            <button class="New-York">New York, NY</button>
+        </div>
+        <div>
+            <button class="Orlando">Orlando, FL</button>
+        </div>
+        <div>
+            <button class="San-Francisco">San Francisco, CA</button>
+        </div>
+        <div>
+            <button class="Seattle">Seattle, WA</button>
+        </div>
+        <div>
+            <button class="Denver">Denver, CO</button>
+        </div>
+        <div>
+            <button class="Atlanta">Atlanta, GA</button>
+        </div>
+    </section>
+
+    <section class="forecast" id="5days">
+        <h2>5 Day Forecast:</h2>
+        <ul>
+        <li class="day1"></li>
+        <li class="day2"></li>
+        <li class="day3"></li>
+        <li class="day4"></li>
+        <li class="day5"></li>
+        </ul>
     </section>
 </body>
 
