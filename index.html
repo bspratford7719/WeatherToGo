@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <div>
-            <title class="title">'Weather' To Go..</title>
+            <title>'Weather' To Go..</title>
             <link
             rel="stylesheet"
             href="https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}"
@@ -23,52 +23,50 @@
         <div class="search" id="city">
             <h2>Search for a City:</h2>
             <textarea
-                disabled
                 placeholder="Enter City"
             ></textarea>
         </div>
         <div>
-            <button class="btn" id="search">Search</button>
+            <button type="button" class="btn" id="search">Search</button>
         </div>
     </section>
 
     <section class="cities" id="cities">
         <div>
-            <button class="Austin">Austin, TX</button>
+            <button type="button" class="Austin">Austin, TX</button>
         </div>
         <div>
-            <button class="Chicago">Chicago, IL</button>
+            <button type="button" class="Chicago">Chicago, IL</button>
         </div>
         <div>
-            <button class="New-York">New York, NY</button>
+            <button type="button" class="New-York">New York, NY</button>
         </div>
         <div>
-            <button class="Orlando">Orlando, FL</button>
+            <button type="button" class="Orlando">Orlando, FL</button>
         </div>
         <div>
-            <button class="San-Francisco">San Francisco, CA</button>
+            <button type="button" class="San-Francisco">San Francisco, CA</button>
         </div>
         <div>
-            <button class="Seattle">Seattle, WA</button>
+            <button type="button" class="Seattle">Seattle, WA</button>
         </div>
         <div>
-            <button class="Denver">Denver, CO</button>
+            <button type="button" class="Denver">Denver, CO</button>
         </div>
         <div>
-            <button class="Atlanta">Atlanta, GA</button>
+            <button type="button" class="Atlanta">Atlanta, GA</button>
         </div>
     </section>
-
-    <section class="forecast" id="5days">
-        <h2>5 Day Forecast:</h2>
-        <ul>
-        <li class="day1"></li>
-        <li class="day2"></li>
-        <li class="day3"></li>
-        <li class="day4"></li>
-        <li class="day5"></li>
-        </ul>
-    </section>
+        <div class="forecast" id="5days">
+            <h2>5 Day Forecast:</h2>
+            <ul>
+            <li class="day1"></li>
+            <li class="day2"></li>
+            <li class="day3"></li>
+            <li class="day4"></li>
+            <li class="day5"></li>
+            </ul>
+        </div>
 </body>
 
     <script src="index.js"></script>
