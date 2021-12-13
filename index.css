@@ -17,6 +17,7 @@ body {
     padding: 2px;
     font-family: sans-serif;
     background-color: #f9fbfd;
+    grid-column: grid;
 }
 
 .dashboard {
@@ -38,15 +39,15 @@ header {
     text-align: center;
     cursor: pointer;
 }
-  
-button[disabled] {
-    cursor: default;
-    background: #c0c7cf;
-}
 
 .cities {
     flex-direction: row;
     margin: 0px;
+}
+
+.cities button{
+    background-color: gray;
+    cursor: pointer;
 }
 
 .forecast {
@@ -56,8 +57,9 @@ button[disabled] {
     padding: 5px;
     margin: 5px;
     cursor: pointer;
+    float: right;
 }
 
 .forecast ul li {
-    position: row;
+    list-style-position: row;
 }
