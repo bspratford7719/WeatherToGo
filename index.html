@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link
-        rel="stylesheet"
-        href="https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}"
-        />
         <title>'Weather' To Go..</title>
+            <link
+            rel="stylesheet"
+            href="https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}"
+            />
             <link rel="stylesheet" href="./index.css" />
             <link rel="sun icon" type="image/png" href="./sun.jfif" />
 </head>
+
 <body>
     <section>
         <div class="dashboard">
@@ -19,12 +20,16 @@
         </div>
         <div class="search" id="city">
             <h2>Search for a City:</h2>
-            <textarea></textarea>
-            <button>Search</button>
+            <textarea
+                disabled
+                placeholder="Enter City"
+            ></textarea>
+        </div>
+        <div>
+            <button class="btn">Search</button>
         </div>
     </section>
 </body>
-<footer>
 
-</footer>
+    <script src="index.js"></script>
 </html>
