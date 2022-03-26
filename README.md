@@ -1,8 +1,14 @@
-![badmath](https://img.shields.io/badge/-HTML-orange) ![badmath](https://img.shields.io/badge/-CSS-blue) ![badmath](https://img.shields.io/badge/-JS-yellow)
-
+![badmath](https://img.shields.io/badge/-HTML-orange)
+![badmath](https://img.shields.io/badge/-CSS-blue)
+![badmath](https://img.shields.io/badge/-JS-yellow)
 # 'Weather' To Go
 
-## Description
+# User Story
+AS A traveler
+I WANT to see the weather outlook for multiple cities
+SO THAT I can plan a trip accordingly
+
+## About
 Weather App designed to show you current weather in a certain city
 
 ## Expected Outcome
