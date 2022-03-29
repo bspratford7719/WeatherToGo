@@ -33,7 +33,7 @@ textarea {
 
 .dashboard {
     text-align: center;
-    background: linear-gradient(to left, #0000ff 0%, #99ccff 100%);
+    background: linear-gradient(to left, darkblue 0%, #99ccff 100%);
 }
 
 .cities {
@@ -51,9 +51,8 @@ textarea {
 
 .btn {
     width: 200px;
-    background-color: blue;
+    background-color: cornflowerblue;
     text-align: left;
-    color: white;
     text-align: center;
     cursor: pointer;
 }
@@ -62,6 +61,7 @@ textarea {
     text-align: center;
     float: right;
     width: 900px;
+    height: 150px;
     border: 2px solid black;
     padding: 10px;
     margin: 20px;
@@ -70,12 +70,22 @@ textarea {
 .forecast {
     text-align: center;
     float: right;
-    width: 900px;
+    width: 950px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.day1,.day2,.day3,.day4,.day5 {
+    text-align: center;
+    float: right;
+    width: 135px;
     border: 2px solid black;
+    background-color: darkblue;
     padding: 10px;
     margin: 20px;
 }
 
 .forecast ul {
-    position: row
+    position: row;
+    display: inline;
 }
